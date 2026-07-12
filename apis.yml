@@ -15,12 +15,16 @@ created: '2026-05-04'
 modified: '2026-05-04'
 specificationVersion: '0.19'
 common:
+  - type: DomainSecurity
+    url: security/knife-river-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/knife-river-corporation
   - type: Website
     url: https://www.kniferiver.com
   - type: Portal
     url: https://partner.kniferiver.com
+  - url: https://www.kniferiver.com/news/feed/
+    type: Blog
 maintainers:
   - FN: API Evangelist
     url: https://apievangelist.com
